@@ -1,0 +1,123 @@
+create(n: Player {name: "Wayward", role: "Top"});
+match (n: Player {name: "Wayward"}), (t:Team {name: "TES"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Tian", role: "Jungle"});
+match (n: Player {name: "Tian"}), (t:Team {name: "TES"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Knight", role: "Mid"});
+match (n: Player {name: "Knight"}), (t:Team {name: "TES"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "JackeyLove", role: "ADC"});
+match (n: Player {name: "JackeyLove"}), (t:Team {name: "TES"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Mark", role: "Sup"});
+match (n: Player {name: "Mark"}), (t:Team {name: "TES"}) create (n)-[:IS_MEMBER_OF]->(t); 
+
+create(n: Player {name: "Impact", role: "Top"});
+match (n: Player {name: "Impact"}), (t:Team {name: "EG"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Inspired", role: "Jungle"});
+match (n: Player {name: "Inspired"}), (t:Team {name: "EG"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Jojopyun", role: "Mid"});
+match (n: Player {name: "Jojopyun"}), (t:Team {name: "EG"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Kaori", role: "ADC"});
+match (n: Player {name: "Kaori"}), (t:Team {name: "EG"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Vulcan", role: "Sup"});
+match (n: Player {name: "Vulcan"}), (t:Team {name: "EG"}) create (n)-[:IS_MEMBER_OF]->(t); 
+
+create(n: Player {name: "Ssumday", role: "Top"});
+match (n: Player {name: "Ssumday"}), (t:Team {name: "100T"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Closer", role: "Jungle"});
+match (n: Player {name: "Closer"}), (t:Team {name: "100T"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Abbedagge", role: "Mid"});
+match (n: Player {name: "Abbedagge"}), (t:Team {name: "100T"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "FBI", role: "ADC"});
+match (n: Player {name: "FBI"}), (t:Team {name: "100T"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "huhi", role: "Sup"});
+match (n: Player {name: "huhi"}), (t:Team {name: "100T"}) create (n)-[:IS_MEMBER_OF]->(t); 
+
+create(n: Player {name: "Robo", role: "Top"});
+match (n: Player {name: "Robo"}), (t:Team {name: "LLL"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Croc", role: "Jungle"});
+match (n: Player {name: "Croc"}), (t:Team {name: "LLL"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Tinowns", role: "Mid"});
+match (n: Player {name: "Tinowns"}), (t:Team {name: "LLL"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Brance", role: "ADC"});
+match (n: Player {name: "Brance"}), (t:Team {name: "LLL"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Ceos", role: "Sup"});
+match (n: Player {name: "Ceos"}), (t:Team {name: "LLL"}) create (n)-[:IS_MEMBER_OF]->(t); 
+
+create(n: Player {name: "Evi", role: "Top"});
+match (n: Player {name: "Evi"}), (t:Team {name: "DFM"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Steal", role: "Jungle"});
+match (n: Player {name: "Steal"}), (t:Team {name: "DFM"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Yaharong", role: "Mid"});
+match (n: Player {name: "Yaharong"}), (t:Team {name: "DFM"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Yutapon", role: "ADC"});
+match (n: Player {name: "Yutapon"}), (t:Team {name: "DFM"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Harp", role: "Sup"});
+match (n: Player {name: "Harp"}), (t:Team {name: "DFM"}) create (n)-[:IS_MEMBER_OF]->(t); 
+
+create(n: Player {name: "Fudge", role: "Top"});
+match (n: Player {name: "Fudge"}), (t:Team {name: "C9"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Blaber", role: "Jungle"});
+match (n: Player {name: "Blaber"}), (t:Team {name: "C9"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Jensen", role: "Mid"});
+match (n: Player {name: "Jensen"}), (t:Team {name: "C9"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Berserk", role: "ADC"});
+match (n: Player {name: "Berserk"}), (t:Team {name: "C9"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Zven", role: "Sup"});
+match (n: Player {name: "Zven"}), (t:Team {name: "C9"}) create (n)-[:IS_MEMBER_OF]->(t); 
+
+create(n: Player {name: "Hasmed", role: "Top"});
+match (n: Player {name: "Hasmed"}), (t:Team {name: "SGB"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "BeanJ", role: "Jungle"});
+match (n: Player {name: "BeanJ"}), (t:Team {name: "SGB"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Froggy", role: "Mid"});
+match (n: Player {name: "Froggy"}), (t:Team {name: "SGB"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Shogun", role: "ADC"});
+match (n: Player {name: "Shogun"}), (t:Team {name: "SGB"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Taki", role: "Sup"});
+match (n: Player {name: "Taki"}), (t:Team {name: "SGB"}) create (n)-[:IS_MEMBER_OF]->(t); 
+
+create(n: Player {name: "Kiaya", role: "Top"});
+match (n: Player {name: "Kiaya"}), (t:Team {name: "GAM"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Levi", role: "Jungle"});
+match (n: Player {name: "Levi"}), (t:Team {name: "GAM"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Kati", role: "Mid"});
+match (n: Player {name: "Kati"}), (t:Team {name: "GAM"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Sty1e", role: "ADC"});
+match (n: Player {name: "Sty1e"}), (t:Team {name: "GAM"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Bie", role: "Sup"});
+match (n: Player {name: "Bie"}), (t:Team {name: "GAM"}) create (n)-[:IS_MEMBER_OF]->(t); 
+
+create(n: Player {name: "ADD", role: "Top"});
+match (n: Player {name: "ADD"}), (t:Team {name: "ISG"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Grell", role: "Jungle"});
+match (n: Player {name: "Grell"}), (t:Team {name: "ISG"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Seiya", role: "Mid"});
+match (n: Player {name: "Seiya"}), (t:Team {name: "ISG"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Gavotto", role: "ADC"});
+match (n: Player {name: "Gavotto"}), (t:Team {name: "ISG"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Jelly", role: "Sup"});
+match (n: Player {name: "Jelly"}), (t:Team {name: "ISG"}) create (n)-[:IS_MEMBER_OF]->(t); 
+
+create(n: Player {name: "Likai", role: "Top"});
+match (n: Player {name: "Likai"}), (t:Team {name: "BYG"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "HuSha", role: "Jungle"});
+match (n: Player {name: "HuSha"}), (t:Team {name: "BYG"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Minji", role: "Mid"});
+match (n: Player {name: "Minji"}), (t:Team {name: "BYG"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Wako", role: "ADC"});
+match (n: Player {name: "Wako"}), (t:Team {name: "BYG"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Kino", role: "Sup"});
+match (n: Player {name: "Kino"}), (t:Team {name: "BYG"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Liang", role: "Top"});
+match (n: Player {name: "Liang"}), (t:Team {name: "BYG"}) create (n)-[:IS_MEMBER_OF]->(t); 
+
+create(n: Player {name: "StarScreen", role: "Top"});
+match (n: Player {name: "StarScreen"}), (t:Team {name: "IW"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Ferret", role: "Jungle"});
+match (n: Player {name: "Ferret"}), (t:Team {name: "IW"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Serin", role: "Mid"});
+match (n: Player {name: "Serin"}), (t:Team {name: "IW"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "HolyPhoenix", role: "ADC"});
+match (n: Player {name: "HolyPhoenix"}), (t:Team {name: "IW"}) create (n)-[:IS_MEMBER_OF]->(t); 
+create(n: Player {name: "Farfetch", role: "Sup"});
+match (n: Player {name: "Farfetch"}), (t:Team {name: "IW"}) create (n)-[:IS_MEMBER_OF]->(t); 
+
